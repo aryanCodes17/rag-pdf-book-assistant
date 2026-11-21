@@ -1,0 +1,28 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ChromaDB
+chroma_db/
+chroma-db/
+
+# Temporary files
+*.tmp
+temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
